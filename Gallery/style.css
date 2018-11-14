@@ -1,0 +1,204 @@
+*{box-sizing: border-box;}
+body{background: lightgrey;}
+/*Struct of site */
+header{	margin-bottom: 10px;position:relative;}
+.inner-header{background: grey;}
+/*Name of site */
+.name-site h1{
+	font: Times, "Times New Roman", sans;
+	padding-left: 10px;
+}
+/*Logo of site */
+.logo{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: pink;
+	margin:10px;
+}
+.logo img{
+	padding: 30% 30%;
+}
+/*link-social-network */
+.link-soc{
+	background: lightgray;
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 10px;
+	display: inline;
+	width: 15%;
+	position: absolute;
+	top: 10%;
+	left:40%;
+	box-shadow: 0 0 5px rgba(0,0,0,.9);
+}
+.link-soc:hover{
+	background: #B516E8FF;
+}
+.link-soc img{
+	width: 20%;
+	padding-left: 3%;
+	border-radius: 50%;
+}
+.vk:hover{
+	width: 25%;
+}
+.fb:hover{
+	width: 25%;
+}
+.tw:hover{
+	width: 25%;
+}
+.ins:hover{
+	width: 25%;
+
+}
+/*Cabinet */
+			/*form{
+				width: 20%;
+
+				position:absolute;
+				top:0;
+				right: 2%;
+			}*/
+.In-site{
+	display: inline-block;
+	width: 20%;
+	list-style-type: none;
+	font-size: 1.25em;
+	background: lightyellow;
+	border:1px solid black;
+	border-radius: 10px;
+	position: absolute;
+	top:0;
+	right:2%;
+}
+.In-site ul{list-style-type: none;}
+.In-site li{border-bottom: 1px solid pink;}
+.In-site li a{padding-left:5px; text-decoration: none;  display: block; text-shadow: 0 0 5px rgba(0,0,0,.4); }
+.In-site a:hover{
+	border: 1px solid green;
+	border-radius: 5px;
+}
+.tech-text a{
+	font-size: 0.75em;
+}
+/*Horizontal menu (main menu) */
+.menu{
+	list-style-type: none;
+	font-size: 1.5em;
+	position: absolute;
+	bottom:-10%;
+	left: 30%;
+}
+.menu li{
+	display: inline-block;
+	padding: 5px;
+	border-right: 1px solid white;
+}
+.menu li:last-child{border-right:none;}
+.menu li a{
+	text-decoration: none;
+	color:white;
+	text-shadow: 0 0 3px rgba(255,255,255,.5);
+}
+.menu li a:hover{
+	font-size: 1.3em;
+	background: #B516E8FF;
+	box-shadow: 0 0 5px rgba(255,255,255,.8);
+	transition: 0.7s;
+}
+main{width: 100%;}
+aside{
+	width: 15%;
+	padding-right: 10px;
+	float:left;
+}
+aside ul{
+	list-style-type: none;
+	padding-left: -3%;
+	border: 1px solid black;
+	box-shadow: 0 0 4px rgba(0,0,0,.7);
+	border-radius: 15px;
+}
+aside li a{
+	text-decoration: none;
+	line-height: 1.9em;
+	display: block;
+	color:black;
+	transition: 0.7s;
+}
+aside li a:hover{
+	background: #B516E8FF;
+	border: 1px solid #B516E8FF;
+	border-radius: 15px;
+	padding-left: 5px;
+	color: white;
+	font-size: 1.1em;
+}
+section{
+	width: 85%;
+	float: left;
+}
+/*??? this problem */
+.inner-content article{font: 1.5em, Verdana, Ariel, sans-serif;}
+.inner-content article:first-line{text-indent: 1px;}
+.inner-content article:hover{
+	background: yellow;
+}
+main::after{
+	content: "";
+	clear: both;
+	display: block;}
+footer{margin-top: 10px;}
+.inner-footer{background: grey;}
+/*gallery cars */
+.photo{
+	float: left;
+}
+figure img{	
+	width: 31%;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 0 0 3px rgba(0,0,0,.9);}
+.A6{
+	width:41%;
+}
+.mini{width: 10%;}
+.mini:hover{z-index: 2; width: 25%;}
+.description-cars{
+	float:left;
+}
+.description-cars ul{list-style-type: none;}
+.description-cars li{text-decoration: none;}
+.galerry::after{
+	content: "";
+	clear:both;
+	display: block;
+}
+/*link whith class=next */
+.next{
+	display: inline-block;
+	background: #173BE7FF;
+	color: white;
+	font: 1.2em Verdana, Arial, sans-serif;
+	border-radius: 5px;
+	padding: 5px;
+	transition: 0.7s;
+}
+.next:hover{
+	background: #B516E8FF;
+}
+/*News and promotions */
+.news{
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	margin:10px;
+	position: relative;
+}
+.btn-news{
+	position: absolute;
+	right: 5%;
+	bottom: 5%;
+}
