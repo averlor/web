@@ -1,0 +1,32 @@
+.wrapper{
+	display: flex;
+	flex-flow: row wrap;
+	color: white;
+	font: 125% Arial, sans-serif;
+}
+.bl{
+	margin:5px;
+	padding:5px;
+}
+.header{
+	background: #8DE816FF;
+	width: 100%;
+	min-height: 150px;
+}
+.content{
+	background:#EB8913FF;
+	width: 70%;
+	min-height: 300px;
+}
+.sidebar{
+	background:#1AE46CFF;
+	margin-left: 15px;
+	width: 26%;
+	min-height: 300px;
+}
+.footer{
+	background:#0BE3F3FF;
+	width: 100%;
+	min-height: 100px;
+	
+}
