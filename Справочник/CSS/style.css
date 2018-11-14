@@ -1,0 +1,53 @@
+/* Общие свойства для странички */
+/* */
+*{box-sizing: border-box;}
+body{font: 16px Verdana, Arial, sans-serif;}
+/* Структура */
+/*  */
+head{margin-bottom: 10px;}
+.inner-header{
+	background: gray;
+	min-height: 200px;
+}
+section{width: 100%;margin-top:5px;}
+aside{
+	width: 30%;
+	float: left;
+}
+.sidebar{background: lightgray; margin-right: 10px;}
+article{
+	width: 70%;
+	float:left;
+	padding-left: 10px;
+	background: lightblue;
+}
+section::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+footer{margin-top: 10px;}
+.inner-footer{}
+                    /* HEAD */
+                    /* Шапка сайта */
+/* logo */
+/* Логотип */
+.logo{}
+/* cab */
+/* Личный кабинет */
+.cab{}
+/* link-soc */
+/* Ссылки на соц.сети */
+.link-soc img{width: 3%;}
+/* menu */
+/* Меню сайта */
+.menu{}
+/* search-field */
+/* Поисковая строка */
+.search-field{}
+					/* sidebar */
+					/* Боковая панель (боковое меню) */
+.sidebar{}
+					/* inner content */
+					/* Основной контент */
+.inner-content{}
